@@ -881,7 +881,7 @@ class APK(object):
     def show(self):
         self.get_files_types()
 
-        print "FILES: "
+        print ("FILES: ")
         for i in self.get_files():
             try:
                 print "\t", i, self.files[i], "%x" % self.files_crc32[i]
